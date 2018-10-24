@@ -9,8 +9,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-       <header>
-          <nav>
+       <header className="app-header">
+          <nav className="app-nav">
             <Link to='/'>Landing</Link>
             <Link to='/library'>Library</Link>
           </nav>

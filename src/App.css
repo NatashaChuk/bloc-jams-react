@@ -1,28 +1,105 @@
 .App {
   text-align: center;
+  background-color: black;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
+/* Landing */
+
+.app-header {
+  background-color: #420088;
   height: 80px;
-}
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
+  padding: 30px;
   color: white;
 }
 
-.App-title {
+.app-nav a {
+  color: white;
+  padding: 10px;
+}
+
+.hero-title {
   font-size: 1.5em;
+  color: #420088;
+  padding: 30px;
 }
 
-.App-intro {
-  font-size: large;
+.point {
+  display: inline-block;
+  /*text-align: center;*/
+  margin: 10px;
+  border: 2px solid gray;
+  box-shadow: 0  2px 2px #ccc;
+  width: 200px;
+  height: 90px;
+  padding: 90px;
+  color: black;
+  background: #420088;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.point-title {
+  font-family: times;
+ vertical-align: top;
+ 
 }
+
+.point-description {
+  color: #999999;
+  font-family: times new roman;
+  font-style: italic;
+}
+
+/* Library */
+
+.library {
+  padding: 30px;
+}
+
+.library a {
+  padding: 20px;
+}
+
+#album-cover {
+  padding: 10px;
+}
+
+/* Album Page */
+
+.album {
+  padding: 30px;
+  background-color: #7575a3;
+}
+
+.album-details {
+  color: #420088;
+}
+
+.artist {
+  color: #d1d1e0;
+  font-style: italic;
+}
+
+#song-list {
+  color: #00004d;
+}
+
+#release-info {
+  color: #2a2a3c;
+}
+
+/*Player Bar*/
+
+.current-time {
+  padding: 3px 0px 15px 0px;
+}
+
+#time-control {
+  padding: 10px;
+}
+
+#volume-control {
+  padding: 10px;
+}
+
+
+
+
